@@ -677,7 +677,7 @@
   //                    item, raise this number — the site adds the difference automatically.
   //   shipAnywhere  -> true = also shows under "Other" locations.
   const products = [
-    { id: 1, name: "أحمر شفاه مطفي - وردي دافئ", description: "قوام مطفي ناعم، لون وردي دافئ يدوم حتى 8 ساعات.", price: 285, color: "C4536B", quantity: 14, shipAnywhere: true },
+    { id: 1, name: "أحمر شفاه مطفي - وردي دافئ", description: "قوام مطفي ناعم، لون وردي دافئ يدوم حتى 8 ساعات.", price: 285, color: "C4536B", quantity: 14, shipAnywhere: true, image: ""},
     { id: 2, name: "كريم أساس متوسط التغطية", description: "تغطية متوسطة قابلة للبناء، مناسبة لكل أنواع البشرة.", price: 420, color: "D9A57B", quantity: 6, shipAnywhere: true },
     { id: 3, name: "بالتة ظلال عيون - ترابية", description: "12 لون بدرجات ترابية دافئة، من المطفي إلى الشيمر.", price: 560, color: "8C5E4A", quantity: 0, shipAnywhere: false },
     { id: 4, name: "ماسكارا تطويل وحجم", description: "فرشاة مقوسة لتطويل وفرد الرموش دون تكتل.", price: 195, color: "1A1414", quantity: 22, shipAnywhere: true },
@@ -721,7 +721,7 @@
     databaseURL: "https://anything-e300d-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "anything-e300d",
   };
-  const FIREBASE_CONFIGURED = firebaseConfig.apiKey !== "YOUR_API_KEY";
+  const FIREBASE_CONFIGURED = firebaseConfig.apiKey !== "AIzaSyDjVNn6V73gfqmEM8LZI-W6zMdo3WLm0aQ";
 
   let sold = JSON.parse(localStorage.getItem('lamsa_sold') || '{}'); // local fallback until Firebase is set up
   let soldRef = null;
