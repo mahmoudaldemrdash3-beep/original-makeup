@@ -721,7 +721,7 @@
     databaseURL: "https://anything-e300d-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "anything-e300d",
   };
-  const FIREBASE_CONFIGURED = firebaseConfig.apiKey !== "AIzaSyDjVNn6V73gfqmEM8LZI-W6zMdo3WLm0aQ";
+  const FIREBASE_CONFIGURED = firebaseConfig.apiKey !== "YOUR_API_KEY";
 
   let sold = JSON.parse(localStorage.getItem('lamsa_sold') || '{}'); // local fallback until Firebase is set up
   let soldRef = null;
